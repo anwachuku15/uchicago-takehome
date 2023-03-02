@@ -1,0 +1,7 @@
+In the project directory, run:
+    npm install
+
+To start the app, run:
+    npm start
+    
+Open http://localhost:3000 to view it in your browser.

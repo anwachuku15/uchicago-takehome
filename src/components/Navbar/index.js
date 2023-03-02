@@ -1,20 +1,9 @@
 import React from "react";
-import {
-	NavContainer,
-	MobileMenuIcon,
-	NavMenu,
-	MenuItem,
-	MenuLink,
-} from "./NavbarElements";
-import { BsList } from "react-icons/bs";
+import { NavContainer, NavMenu, MenuItem, MenuLink } from "./NavbarElements";
 
 const Navbar = ({ toggleHome }) => {
 	return (
 		<NavContainer>
-			<MobileMenuIcon onClick={toggleHome}>
-				<BsList color="white" />
-			</MobileMenuIcon>
-
 			<NavMenu>
 				<MenuItem>
 					<MenuLink to="/">Home</MenuLink>

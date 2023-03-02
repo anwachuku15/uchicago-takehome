@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Text = styled.p`
+export const GreetingText = styled.p`
 	color: maroon;
 	margin-top: -38px;
 	font-size: 24px;

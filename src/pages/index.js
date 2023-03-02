@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../components/Button";
-import { Text } from "../components/GreetingText/GreetingTextElements";
+import { GreetingText } from "../components/GreetingTextElements";
 import Container from "../components/Container";
 import { BsGlobe } from "react-icons/bs";
 
@@ -14,14 +14,14 @@ const Home = () => {
 		<Container>
 			<Button
 				text="Click"
-				icon={<BsGlobe fontSize={24} />}
+				icon={<BsGlobe fontSize={24} color="dodgerblue" />}
 				_page="home"
 				_onClick={displayHelloWorld}
 				_isShown={!showGreeting}
 			/>
-			<Text page="home" isShown={showGreeting}>
+			<GreetingText page="home" isShown={showGreeting}>
 				Hello World!
-			</Text>
+			</GreetingText>
 		</Container>
 	);
 };
