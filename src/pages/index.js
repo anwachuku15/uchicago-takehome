@@ -14,7 +14,7 @@ const Home = () => {
 		<Container>
 			<Button
 				text="Click"
-				icon={<BsGlobe fontSize={24} color="dodgerblue" />}
+				icon={<BsGlobe fontSize={24} color="#1E90FF" />}
 				_page="home"
 				_onClick={displayHelloWorld}
 				_isShown={!showGreeting}

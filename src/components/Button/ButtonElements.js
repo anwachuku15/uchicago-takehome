@@ -52,7 +52,7 @@ export const Icon = styled.div`
 	transition: all 200ms;
 	${BtnWrapper}:hover & {
 		margin-left: 10px !important;
-		color: dodgerblue;
+		color: #1e90ff;
 		opacity: 1;
 	}
 `;

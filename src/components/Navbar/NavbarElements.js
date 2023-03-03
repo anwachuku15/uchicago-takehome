@@ -49,6 +49,6 @@ export const MenuLink = styled(NavLink)`
 	}
 	&:hover {
 		/* color: #d9d9d9; */
-		color: dodgerblue;
+		color: #1e90ff;
 	}
 `;

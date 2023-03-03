@@ -82,7 +82,7 @@ const Graph = () => {
 			.join("path")
 			.attr("d", (d) => _generateScaledLine.current(d))
 			.attr("fill", "none")
-			.attr("stroke", "dodgerblue");
+			.attr("stroke", "#1E90FF");
 	};
 
 	const Chart = () => <svg ref={svgRef} style={{}}></svg>;
