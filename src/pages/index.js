@@ -13,7 +13,6 @@ const Home = () => {
 		<Container>
 			<Button
 				text="Click"
-				// icon={<BsGlobe fontSize={24} color="#1E90FF" />}
 				icon={
 					<span
 						class="glyphicon glyphicon-globe"

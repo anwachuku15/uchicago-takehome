@@ -90,7 +90,6 @@ const Graph = () => {
 		<Container>
 			<Button
 				text="Draw"
-				// icon={<BsGraphUp fontSize={24} />}
 				icon={
 					<span
 						class="glyphicon glyphicon-pencil"
