@@ -26,6 +26,7 @@ export const BtnWrapper = styled.div`
 export const BtnText = styled.p`
 	display: flex;
 	color: maroon;
+	margin: 0;
 	text-decoration: none;
 	font-weight: ${({ page }) => {
 		if (page === "home") {

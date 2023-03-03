@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Container from "../components/Container";
 import Button from "../components/Button";
-import { BsGraphUp } from "react-icons/bs";
 import * as d3 from "d3";
 
 const Graph = () => {
@@ -91,7 +90,13 @@ const Graph = () => {
 		<Container>
 			<Button
 				text="Draw"
-				icon={<BsGraphUp fontSize={24} />}
+				// icon={<BsGraphUp fontSize={24} />}
+				icon={
+					<span
+						class="glyphicon glyphicon-pencil"
+						style={{ fontSize: 24 }}
+					></span>
+				}
 				_isShown={true}
 				page="graph"
 				_onClick={drawGraph}

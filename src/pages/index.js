@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Button from "../components/Button";
 import { GreetingText } from "../components/GreetingTextElements";
 import Container from "../components/Container";
-import { BsGlobe } from "react-icons/bs";
 
 const Home = () => {
 	const [showGreeting, setShowGreeting] = useState(false);
@@ -14,7 +13,13 @@ const Home = () => {
 		<Container>
 			<Button
 				text="Click"
-				icon={<BsGlobe fontSize={24} color="#1E90FF" />}
+				// icon={<BsGlobe fontSize={24} color="#1E90FF" />}
+				icon={
+					<span
+						class="glyphicon glyphicon-globe"
+						style={{ fontSize: 24 }}
+					></span>
+				}
 				_page="home"
 				_onClick={displayHelloWorld}
 				_isShown={!showGreeting}

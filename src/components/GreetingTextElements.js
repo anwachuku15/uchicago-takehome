@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const GreetingText = styled.p`
 	color: maroon;
 	margin-top: -38px;
+	margin-bottom: 0;
 	font-size: 24px;
 	font-weight: bold;
 	padding: 4px 15px 4px 15px;

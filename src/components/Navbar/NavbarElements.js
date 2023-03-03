@@ -34,7 +34,7 @@ export const MenuLink = styled(NavLink)`
 	color: white;
 	display: flex;
 	align-items: center;
-	text-decoration: none;
+	text-decoration: none !important;
 	padding: 0 1rem;
 	height: 100%;
 	cursor: pointer;
@@ -44,11 +44,11 @@ export const MenuLink = styled(NavLink)`
 	transition: all 0.2s ease;
 
 	&.active {
+		color: white;
 		border-bottom-color: white;
 		transition: border-bottom-color 0.2s ease;
 	}
 	&:hover {
-		/* color: #d9d9d9; */
 		color: #1e90ff;
 	}
 `;
